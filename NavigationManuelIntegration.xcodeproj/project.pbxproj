@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF35AEB293A26EE00EC8BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF35AEA293A26EE00EC8BE6 /* AppDelegate.swift */; };
+		AFF35AED293A26EE00EC8BE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF35AEC293A26EE00EC8BE6 /* SceneDelegate.swift */; };
+		AFF35AEF293A26EE00EC8BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF35AEE293A26EE00EC8BE6 /* ViewController.swift */; };
+		AFF35AF2293A26EE00EC8BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF35AF0293A26EE00EC8BE6 /* Main.storyboard */; };
+		AFF35AF4293A26EF00EC8BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF35AF3293A26EF00EC8BE6 /* Assets.xcassets */; };
+		AFF35AF7293A26EF00EC8BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF35AF5293A26EF00EC8BE6 /* LaunchScreen.storyboard */; };
+		AFF35B04293A272100EC8BE6 /* PoilabsNavigation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFE293A272000EC8BE6 /* PoilabsNavigation.xcframework */; };
+		AFF35B05293A272100EC8BE6 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFF293A272000EC8BE6 /* MapboxMobileEvents.framework */; };
+		AFF35B06293A272100EC8BE6 /* PoilabsNavigationResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFF35B00293A272000EC8BE6 /* PoilabsNavigationResources.bundle */; };
+		AFF35B07293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B01293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework */; };
+		AFF35B08293A272100EC8BE6 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B02293A272100EC8BE6 /* Mapbox.framework */; };
+		AFF35B09293A272200EC8BE6 /* PoilabsPositioning.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B03293A272100EC8BE6 /* PoilabsPositioning.xcframework */; };
+		AFF35B0B293A272500EC8BE6 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B02293A272100EC8BE6 /* Mapbox.framework */; };
+		AFF35B0C293A272600EC8BE6 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B02293A272100EC8BE6 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFF35B0E293A272800EC8BE6 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFF293A272000EC8BE6 /* MapboxMobileEvents.framework */; };
+		AFF35B0F293A272800EC8BE6 /* MapboxMobileEvents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFF293A272000EC8BE6 /* MapboxMobileEvents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFF35B10293A272B00EC8BE6 /* PoilabsNavigation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFE293A272000EC8BE6 /* PoilabsNavigation.xcframework */; };
+		AFF35B11293A272C00EC8BE6 /* PoilabsNavigation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35AFE293A272000EC8BE6 /* PoilabsNavigation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFF35B12293A272E00EC8BE6 /* PoilabsPositioning.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B03293A272100EC8BE6 /* PoilabsPositioning.xcframework */; };
+		AFF35B13293A272F00EC8BE6 /* PoilabsPositioning.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B03293A272100EC8BE6 /* PoilabsPositioning.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFF35B14293A273100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B01293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework */; };
+		AFF35B15293A273100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFF35B01293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFF35B0D293A272600EC8BE6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AFF35B15293A273100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Embed Frameworks */,
+				AFF35B11293A272C00EC8BE6 /* PoilabsNavigation.xcframework in Embed Frameworks */,
+				AFF35B0F293A272800EC8BE6 /* MapboxMobileEvents.framework in Embed Frameworks */,
+				AFF35B13293A272F00EC8BE6 /* PoilabsPositioning.xcframework in Embed Frameworks */,
+				AFF35B0C293A272600EC8BE6 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AFF35AE7293A26EE00EC8BE6 /* NavigationManuelIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationManuelIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF35AEA293A26EE00EC8BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF35AEC293A26EE00EC8BE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFF35AEE293A26EE00EC8BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF35AF1293A26EE00EC8BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF35AF3293A26EF00EC8BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF35AF6293A26EF00EC8BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF35AF8293A26EF00EC8BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF35AFE293A272000EC8BE6 /* PoilabsNavigation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PoilabsNavigation.xcframework; sourceTree = "<group>"; };
+		AFF35AFF293A272000EC8BE6 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		AFF35B00293A272000EC8BE6 /* PoilabsNavigationResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PoilabsNavigationResources.bundle; sourceTree = "<group>"; };
+		AFF35B01293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PoilabsSdkAnalytics.xcframework; sourceTree = "<group>"; };
+		AFF35B02293A272100EC8BE6 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		AFF35B03293A272100EC8BE6 /* PoilabsPositioning.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PoilabsPositioning.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF35AE4293A26EE00EC8BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF35B14293A273100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Frameworks */,
+				AFF35B05293A272100EC8BE6 /* MapboxMobileEvents.framework in Frameworks */,
+				AFF35B04293A272100EC8BE6 /* PoilabsNavigation.xcframework in Frameworks */,
+				AFF35B07293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework in Frameworks */,
+				AFF35B09293A272200EC8BE6 /* PoilabsPositioning.xcframework in Frameworks */,
+				AFF35B08293A272100EC8BE6 /* Mapbox.framework in Frameworks */,
+				AFF35B12293A272E00EC8BE6 /* PoilabsPositioning.xcframework in Frameworks */,
+				AFF35B0E293A272800EC8BE6 /* MapboxMobileEvents.framework in Frameworks */,
+				AFF35B10293A272B00EC8BE6 /* PoilabsNavigation.xcframework in Frameworks */,
+				AFF35B0B293A272500EC8BE6 /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF35ADE293A26EE00EC8BE6 = {
+			isa = PBXGroup;
+			children = (
+				AFF35B02293A272100EC8BE6 /* Mapbox.framework */,
+				AFF35AFF293A272000EC8BE6 /* MapboxMobileEvents.framework */,
+				AFF35AFE293A272000EC8BE6 /* PoilabsNavigation.xcframework */,
+				AFF35B00293A272000EC8BE6 /* PoilabsNavigationResources.bundle */,
+				AFF35B03293A272100EC8BE6 /* PoilabsPositioning.xcframework */,
+				AFF35B01293A272100EC8BE6 /* PoilabsSdkAnalytics.xcframework */,
+				AFF35AE9293A26EE00EC8BE6 /* NavigationManuelIntegration */,
+				AFF35AE8293A26EE00EC8BE6 /* Products */,
+				AFF35B0A293A272500EC8BE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF35AE8293A26EE00EC8BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF35AE7293A26EE00EC8BE6 /* NavigationManuelIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF35AE9293A26EE00EC8BE6 /* NavigationManuelIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				AFF35AEA293A26EE00EC8BE6 /* AppDelegate.swift */,
+				AFF35AEC293A26EE00EC8BE6 /* SceneDelegate.swift */,
+				AFF35AEE293A26EE00EC8BE6 /* ViewController.swift */,
+				AFF35AF0293A26EE00EC8BE6 /* Main.storyboard */,
+				AFF35AF3293A26EF00EC8BE6 /* Assets.xcassets */,
+				AFF35AF5293A26EF00EC8BE6 /* LaunchScreen.storyboard */,
+				AFF35AF8293A26EF00EC8BE6 /* Info.plist */,
+			);
+			path = NavigationManuelIntegration;
+			sourceTree = "<group>";
+		};
+		AFF35B0A293A272500EC8BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF35AE6293A26EE00EC8BE6 /* NavigationManuelIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF35AFB293A26EF00EC8BE6 /* Build configuration list for PBXNativeTarget "NavigationManuelIntegration" */;
+			buildPhases = (
+				AFF35AE3293A26EE00EC8BE6 /* Sources */,
+				AFF35AE4293A26EE00EC8BE6 /* Frameworks */,
+				AFF35AE5293A26EE00EC8BE6 /* Resources */,
+				AFF35B0D293A272600EC8BE6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationManuelIntegration;
+			productName = NavigationManuelIntegration;
+			productReference = AFF35AE7293A26EE00EC8BE6 /* NavigationManuelIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF35ADF293A26EE00EC8BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AFF35AE6293A26EE00EC8BE6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AFF35AE2293A26EE00EC8BE6 /* Build configuration list for PBXProject "NavigationManuelIntegration" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF35ADE293A26EE00EC8BE6;
+			productRefGroup = AFF35AE8293A26EE00EC8BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF35AE6293A26EE00EC8BE6 /* NavigationManuelIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF35AE5293A26EE00EC8BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF35AF7293A26EF00EC8BE6 /* LaunchScreen.storyboard in Resources */,
+				AFF35AF4293A26EF00EC8BE6 /* Assets.xcassets in Resources */,
+				AFF35B06293A272100EC8BE6 /* PoilabsNavigationResources.bundle in Resources */,
+				AFF35AF2293A26EE00EC8BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF35AE3293A26EE00EC8BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF35AEF293A26EE00EC8BE6 /* ViewController.swift in Sources */,
+				AFF35AEB293A26EE00EC8BE6 /* AppDelegate.swift in Sources */,
+				AFF35AED293A26EE00EC8BE6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFF35AF0293A26EE00EC8BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF35AF1293A26EE00EC8BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF35AF5293A26EF00EC8BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF35AF6293A26EF00EC8BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF35AF9293A26EF00EC8BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF35AFA293A26EF00EC8BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF35AFC293A26EF00EC8BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKZ5H3494C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationManuelIntegration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poilabs.NavigationManuelIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF35AFD293A26EF00EC8BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FKZ5H3494C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NavigationManuelIntegration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poilabs.NavigationManuelIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF35AE2293A26EE00EC8BE6 /* Build configuration list for PBXProject "NavigationManuelIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF35AF9293A26EF00EC8BE6 /* Debug */,
+				AFF35AFA293A26EF00EC8BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF35AFB293A26EF00EC8BE6 /* Build configuration list for PBXNativeTarget "NavigationManuelIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF35AFC293A26EF00EC8BE6 /* Debug */,
+				AFF35AFD293A26EF00EC8BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF35ADF293A26EE00EC8BE6 /* Project object */;
+}
